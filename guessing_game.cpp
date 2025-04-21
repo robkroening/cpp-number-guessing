@@ -23,7 +23,6 @@ void GuessingGame::generateRandomTargetNumber() {
     targetNumber = minRange + (std::rand() % (maxRange - minRange + 1));
 };
 
-// public:
     // constructor -> what happens at the start of each game
 GuessingGame::GuessingGame(int minimumRange, int maximumRange) {
     this->minRange = minimumRange;
